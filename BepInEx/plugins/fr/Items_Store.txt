@@ -1,3 +1,4 @@
+﻿
 Inspect: [Z]=Inspecter : [Z]
 Place on door : [LMB]=Placer sur la porte : [Clic gauche]
 Pop up ladder : [LMB]=Déployer l'échelle : [Clic gauche]

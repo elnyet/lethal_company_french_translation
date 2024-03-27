@@ -14,7 +14,7 @@ Weather: Stormy=Meteo: Tempête
 None= Aucune
 Abandoned= Abandonnée
 
-# Pianètes restants en Variété. Même si je pourrais envisager d'inverser le nom et le numéro (8 Titan -> Titan 8 ?)
+# Pianeti, rimasti inVarieti. Anche se potrei considerare di invertire nome e numero (8 Titan -> Titan 8?)
 7 Dine=7 Dine
 8 Titan=8 Titan
 21 Offense=21 Offense
@@ -25,7 +25,7 @@ Abandoned= Abandonnée
 71 Gordion=71 Gordion
 85 Rend=85 Rend
 
-## Descriptions des planètes
+## Descrizioni Pianeti
 # 8-Titan
 Frozen, rocky. This moon was mined for resources. It\'s easy to get lost here.= Gelée, rocheuse. Cette lune a été exploitée pour ses ressources. C'est facile de se perdre ici.
 Dangerous entities have been rumored to take residence in the vast network of tunnels.\n= Des entités dangereuses semblent s'être installées dans le vaste réseau de tunnels.\n
@@ -55,7 +55,7 @@ Unknown= Inconnu
 No land masses. Continual storms.= Pas de surface.\nTempêtes continues.
 Unknown\nWhere the Company resides.\n=Inconnue\nLà où l'Entreprise réside.\n
 
-## Dine Rend et March ne sont pas capturés par l'expression régulière pour une raison quelconque, essayant une approche par force brute :
+## Dine Rend & March aren\'t captured by the regex for some reason, trying bruteforce approach:
 # Rend
 Orbiting: 85 Rend\nPOPULATION: None\nCONDITIONS: Frozen, rocky. Its planet orbits a white dwarf star.\nFAUNA: Unlikely for complex life to exist\n=En Orbite: 85 Rend\nPOPULATION: Aucune\nCONDITIONS: Gelée, rocheuse. Sa planète orbite une étoile naine blanche\nFAUNE: Improbable que des formes de vie complexes y existent\n
 Orbiting: 85 Rend\nPOPULATION: None\nCONDITIONS: Frozen, rocky. Its planet orbits a white dwarf star.\nFAUNA: Unlikely for complex life to exist\nWeather: Eclipsed\n=En orbite: 85 Rend\nPPOPULATION: Aucune\nCONDITIONS: Gelée, rocheuse. Sa planète orbite une étoile naine blanche\nFAUNE: Improbable que des formes de vie complexes y existent\nMETEO: Éclipse\n
@@ -83,7 +83,7 @@ Orbiting: 7 Dine\nPOPULATION: None\nCONDITIONS: Frozen, rocky. Its planet orbits
 Orbiting: 7 Dine\nPOPULATION: None\nCONDITIONS: Frozen, rocky. Its planet orbits a white dwarf star.\nFAUNA: Unlikely for complex life to exist\nWeather: Stormy\n=En orbite: 7 Dine\nPOPULATION: Aucune\nCONDITIONS: Gelée, rocheuse. Sa planète orbite une étoile naine blanche\nFAUNE: Improbable que des formes de vie complexes y existent\nMETEO: Tempête\n
 POPULATION: None\nCONDITIONS: Frozen, rocky. Its planet orbits a white dwarf star.\nFAUNA: Unlikely for complex life to exist\n=POPULATION: Aucune\nCONDITIONS: Gelée, rocheuse. Sa planète orbite une étoile naine blanche\nFAUNE: Improbable que des formes de vie complexes y existent\n
 
-# Expressions régulières des planètes
+# Regex dei pianeti
 #sr:"^Orbiting: ([\s\S]+)\nPOPULATION: ([\s\S]+)\nCONDITIONS: ([\s\S]+)\nFAUNA: ([\s\S]+)(\n)?([\s\S]+)?$"=En orbite： $1\nPOPULATION： $2\nCONDITIONS： $3\nFAUNE： $4$5$6
 #sr:"^Orbiting: ([\s\S]+)\nPOPULATION: ([\s\S]+)\nCONDITIONS: ([\s\S]+)\nFAUNA: ([\s\S]+)\nWeather: ([\s\S]+)$"=En orbite： $1\nPOPULATION： $2\nCONDITIONS： $3\nFAUNE： $4\nMETEO：$5
 sr:"^Orbiting: ([\s\S]+)\sPOPULATION: ([\s\S]+)\sCONDITIONS: ([\s\S]+)\sFAUNAnFAUNA: ([\s\S]+)(\s)?([\s\S]+)?$"=En orbite： $1\nPOPULATION： $2\nCONDITIONS： $3\nFAUNE： $4$5$6

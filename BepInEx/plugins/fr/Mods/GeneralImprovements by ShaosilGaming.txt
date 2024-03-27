@@ -1,0 +1,2 @@
+#Traduction Moniteur
+r:"SCRAP IN\nSHIP:\n(.*)"=FERRAILLE\nÀ BORD\n:$1

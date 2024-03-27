@@ -1,4 +1,4 @@
-#Versione
+﻿#Versione
 r:"^v([0-9]+)$"=v$1
 r:"(^[\s\S]+)(\[MODDED\])$"=$1[MODDÉ]
 

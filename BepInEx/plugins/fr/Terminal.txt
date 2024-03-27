@@ -1,0 +1,4 @@
+###Terminal-Other###
+
+# Setting type: String
+ >MOONS\nTo see the list of moons the autopilot can route to.\n\n>STORE\nTo see the company store\'s selection of useful items.\n\n>BESTIARY\nTo see the list of wildlife on record.\n\n>STORAGE\nTo access objects placed into storage.\n\n>OTHER\nTo see the list of other commands\n\n[numberOfItemsOnRoute]\n= >MOONS\nPour voir une liste des lunes disponibles.\n\n>STORE\nPour voir une séléction des objets utiles de l\'entreprise.\n\n>BESTIARY\nPour voir une liste des différentes formes de vie enregistrées.\n\n>STORAGE\nPour accéder aux objets stockés.\n\n>OTHER\nPour voir une liste des autres commandes\n\n[numberOfItemsOnRoute]\n

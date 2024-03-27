@@ -94,11 +94,9 @@ Settings to change how a round starts.=Paramètres pour changer comment une manc
 Start credits:=Crédits de départ:
 
 Global multipliers=Multiplicateurs globaux.
-Settings to change how much scrap spawns and how valuable it is and other stuff like enemy max power.=Paramètres pour changer la quantité de ferraille qui apparaît, sa valeur et d'autres choses comme la puissance maximale de l'ennemi.
-Value:=Valeur:
+Settings to change how much scrap spawns and how valueable it is and other stuff like enemy max power.=Paramètres permettant de modifier la quantité de ferraille produite et sa valeur, ainsi que d'autres choses comme la puissance maximale des ennemis.Value:=Valeur:
 Amount:=Quantité:
 Max enemy power:=Puissance maximale de l'ennemi:
-
 
 Deadline=Échéance:
 The extend deadline option adds a command to your portable terminal to extend your deadline once per quota. You can also change the length of the deadline in general. Changes to this variable only takes effect when starting a new game or quota=L'option de prolongation de l'échéance ajoute une commande à votre terminal portable pour prolonger votre délai une fois par quota. Vous pouvez également modifier la durée de l'échéance en général. Les modifications de cette variable ne prendront effet que lors du démarrage d'un nouveau jeu ou quota.
@@ -118,9 +116,14 @@ PLEASE NOTE: If you deactivate the portable terminal you won't have access to pe
 Enabled:=Activé:
 
 Save progress=Sauvegarder la progression
-When deactivated allows you to customize starting XP and XP multipliers.\nProgress for all players will be saved in the hosts save file and reset when not meeting the quota.=Lorsque désactivé, vous permet de personnaliser l'XP de départ et les multiplicateurs d'XP.  La progression de tous les joueurs sera sauvegardée dans le fichier de sauvegarde de l'hôte et réinitialisée en cas de non-respect du quota.Enabled:=Activé:
-Start XP:=XP de départ:
+When deactivated allows you to customize starting XP and XP multipliers. Progress for all players will be saved in the hosts save file and reset when not meeting the quota.=Lorsqu'il est désactivé, il vous permet de personnaliser l'XP de départ et les multiplicateurs d'XP. La progression de tous les joueurs est enregistrée dans le fichier de sauvegarde de l'hôte et réinitialisée lorsque le quota n'est pas atteint.Start XP:=XP de départ:
+Individual XP:=Individuel XP :
+Reset XP:=Réinitialiser XP :
+Start ship XP:=Démarrer le vaisseau XP :
 XP multiplier:=Multiplicateur d'XP:
+
+Deactivate hotbar=Désactiver la barre d'outils
+WARNING: If you enable this setting, AdvancedCompany won't touch the hotbar and inventories at all. This means that the inventory perk gets auto deactivated, all equippable items, including cursed items, will get forcefully deactivated, the energy bars are removed, customization of the hotbar is removed, there wont be any hotkeys, neither flashlight nor quick access, added and no inventory fixes like flashlight fixes. This mode is experimental and there won't be any support for it whatsoever. If I see you using it and creating a GitHub issue relating to this mode it will get auto closed. Activating this option might result in unwanted results as the hotbar changes are a core function of AdvancedCompany. Spawning in and equipping any equipment item might break your game in unexpected ways.=ATTENTION : Si vous activez ce paramètre, AdvancedCompany ne touchera pas du tout à la barre de chauffe et aux inventaires. Cela signifie que la perk d'inventaire est automatiquement désactivée, que tous les objets équipables, y compris les objets maudits, seront désactivés de force, que les barres d'énergie sont supprimées, que la personnalisation de la barre de chauffe est supprimée, qu'il n'y aura pas de raccourcis clavier, ni de lampe de poche, ni d'accès rapide, ajoutés et qu'il n'y aura pas de correction d'inventaire comme celle de la lampe de poche. Ce mode est expérimental et il n'y aura pas de support pour lui. Si je vois que vous l'utilisez et que vous créez un problème GitHub relatif à ce mode, il sera automatiquement fermé. L'activation de cette option peut entraîner des résultats indésirables, car les modifications de la barre d'outils sont une fonction essentielle d'AdvancedCompany. Le fait d'entrer dans le jeu et d'équiper n'importe quel élément d'équipement peut perturber votre jeu de manière inattendue.
 
 #Items
 Items=Objets

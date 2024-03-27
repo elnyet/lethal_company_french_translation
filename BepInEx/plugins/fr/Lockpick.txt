@@ -1,5 +1,3 @@
-#Le temps nécessaire pour crocheter une serrure avec un crochet (lockpick).
-
 Picking lock: 0 sec.=En train de crocheter: 0 sec.
 Picking lock: 1 sec.=En train de crocheter: 1 sec.
 Picking lock: 2 sec.=En train de crocheter: 2 sec.
